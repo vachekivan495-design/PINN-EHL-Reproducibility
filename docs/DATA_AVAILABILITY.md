@@ -6,8 +6,11 @@ converged FAS reference solutions on the fixed `769 × 769` D2 grid. Each case i
 indexed in `data/full_dataset_index.json` with its field checksum and convergence
 diagnostics.
 
-**Permanent full-data archive URL:** add the Zenodo DOI or institutional archive
-URL here before public release.
+**Versioned full-data archive:**
+[GitHub Release v1.0.0](https://github.com/vachekivan495-design/PINN-EHL-Reproducibility/releases/tag/v1.0.0)
+
+**Direct download:**
+[`PINN_EHL_D2_769_full_dataset.zip`](https://github.com/vachekivan495-design/PINN-EHL-Reproducibility/releases/download/v1.0.0/PINN_EHL_D2_769_full_dataset.zip)
 
 After downloading the archive, run:
 
@@ -18,7 +21,7 @@ python scripts/verify_dataset.py data/full/reference_d2_769
 The archive should preserve the case-directory names listed in
 `data/full_dataset_index.json`.
 
-Prepared archive for deposit:
+Published archive:
 
 - filename: `PINN_EHL_D2_769_full_dataset.zip`;
 - size: 300.64 MB;

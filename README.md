@@ -53,8 +53,10 @@ python -m pytest
 ## Full training reproduction
 
 The complete D2 dataset contains 60 converged `769 × 769` reference cases and is
-about 300 MB. It is kept outside Git so that the repository remains small. Place
-the extracted dataset at:
+about 300 MB. It is distributed as a versioned
+[GitHub Release asset](https://github.com/vachekivan495-design/PINN-EHL-Reproducibility/releases/download/v1.0.0/PINN_EHL_D2_769_full_dataset.zip)
+so that the Git repository remains small. After downloading and extracting the
+archive, place the dataset at:
 
 ```text
 data/full/reference_d2_769/<case-directory>/manifest.json
@@ -68,8 +70,9 @@ python scripts/verify_dataset.py data/full/reference_d2_769
 python scripts/train_pinn.py --config configs/primary_1pct_seed1.json
 ```
 
-Before making this repository public, add the permanent Zenodo or institutional
-archive URL for the full dataset to `docs/DATA_AVAILABILITY.md`.
+The archive SHA-256 is
+`68fb843e115b16726f13c600fdbd64a7d93ad2e0474c3b8038510945276fb53e`.
+See `docs/DATA_AVAILABILITY.md` for the versioned release record.
 
 ## Experimental contract
 
