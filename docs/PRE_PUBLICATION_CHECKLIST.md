@@ -10,6 +10,6 @@
 - [x] Full 60-case data archive prepared and integrity-tested.
 - [ ] Upload the 60-case data archive to Zenodo or an institutional repository.
 - [ ] Insert the permanent dataset DOI/URL in `docs/DATA_AVAILABILITY.md`.
-- [ ] Confirm all manuscript authors who should appear in `CITATION.cff`.
+- [x] `CITATION.cff` follows the current manuscript author list and order.
 - [ ] Confirm the repository owner and final public repository name.
 
