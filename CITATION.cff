@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated manuscript."
+title: "PINN-EHL surrogate reproducibility package"
+type: software
+version: 1.0.0
+date-released: 2026-10-01
+authors:
+  - family-names: Zhang
+    given-names: Cheng
+    orcid: "https://orcid.org/0000-0003-3388-4167"
+license: MIT
+

@@ -1,0 +1,24 @@
+{
+  "baseline": "physics_regularized_elastic_closure",
+  "best_validation_score": 0.04484452786035848,
+  "checkpoint_selected_by": "condition_validation_split",
+  "completed_epochs": 500,
+  "device": "cuda",
+  "effective_trainable_parameters": 681602,
+  "elapsed_seconds_this_invocation": 16410.495086412993,
+  "environment": {
+    "cuda_available": true,
+    "cuda_runtime": "12.8",
+    "deterministic_algorithms": false,
+    "num_threads": 4,
+    "numpy": "2.4.3",
+    "python": "3.12.3",
+    "torch": "2.11.0+cu128"
+  },
+  "optimizer_updates": 16000,
+  "parameter_count": 690180,
+  "run_purpose": "production",
+  "test_field_arrays_loaded": false,
+  "total_parameters": 690180,
+  "training_elapsed_seconds": 16410.495086412993
+}

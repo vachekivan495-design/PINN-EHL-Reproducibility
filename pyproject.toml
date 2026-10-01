@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pinn-ehl-surrogate-repro"
+version = "1.0.0"
+description = "Reproducibility package for a sparse-supervised physics-informed point-contact EHL surrogate"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Cheng Zhang"}]
+dependencies = [
+  "numpy>=2.0,<3",
+  "scipy>=1.13,<2",
+  "torch>=2.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

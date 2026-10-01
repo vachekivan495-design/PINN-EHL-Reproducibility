@@ -1,0 +1,92 @@
+{
+  "case": {
+    "alpha_pa_inv": 2.3665293604135514e-08,
+    "case_id": "ti_006",
+    "density_kg_m3": 818.2,
+    "entrainment_speed_m_s": 1.5495457435026765,
+    "eta0_pa_s": 0.06853415663987397,
+    "grid": {
+      "nx": 769,
+      "ny": 769,
+      "x_max": 2.0,
+      "x_min": -4.0,
+      "y_max": 3.0,
+      "y_min": -3.0
+    },
+    "load_n": 28.63282784819603,
+    "material": {
+      "e1_pa": 210000000000.0,
+      "e2_pa": 81000000000.0,
+      "nu1": 0.3,
+      "nu2": 0.208,
+      "rx1_m": 0.01268,
+      "rx2_m": null,
+      "ry1_m": 0.01268,
+      "ry2_m": null
+    },
+    "roelands_reference_pressure_pa": 196000000.0,
+    "solver": {
+      "film_floor_m": 1e-09
+    }
+  },
+  "case_id": "ti_006",
+  "field_file": "fields.npz",
+  "field_sha256": "eb59c01b8048adff6a50b08f46042dc9e8a6b2f0c7c197d4e0a79c2e380d2d77",
+  "final_reynolds_residual": 8.462840547591509e-06,
+  "grid_shape": [
+    769,
+    769
+  ],
+  "load_relative_error": 3.6737290987076676e-10,
+  "maximum_boundary_pressure": 0.0,
+  "maximum_symmetry_error": 1.5180974952518984e-16,
+  "pressure_change": 2.3679830219923314e-07,
+  "provenance": {
+    "source_acceptance": {
+      "checks": {
+        "absolute_load_residual_le_1e-5": true,
+        "finite_fields": true,
+        "nonnegative_pressure": true,
+        "positive_film": true,
+        "pressure_change_le_1e-5": true,
+        "reynolds_l2_le_1e-5": true,
+        "solver_status_converged": true,
+        "zero_pressure_boundary": true
+      },
+      "passed": true
+    },
+    "source_fields_sha256": "13660e569a225edd4556524b039d9e81003e77001835a4435d361fabb41f100d",
+    "source_mentor_summary": {
+      "cavitation_fraction": 0.23609436537072956,
+      "elapsed_s": 2885.937660932541,
+      "h0": -0.7066632775369563,
+      "hcenter": 0.2881485937004221,
+      "hmin": 0.1796306376533935,
+      "iteration": 99,
+      "load_integral": 2.0943950992305758,
+      "load_residual": 3.6737290987076676e-10,
+      "load_step": 0.001938926719078204,
+      "pmax": 1.268591141066035,
+      "pmin": 0.0,
+      "pressure_change": 2.3679830219923314e-07,
+      "reynolds_l1": 2.6325633901339116e-07,
+      "reynolds_l2": 8.462840547591509e-06,
+      "reynolds_linf": 0.0011055349335056253,
+      "sign_changes": 0
+    },
+    "source_run_dir_name": "ti_006_13660e569a22"
+  },
+  "scaling": {
+    "contact_radius_m": 0.0001638173664412492,
+    "equivalent_radius_m": 0.01268,
+    "film_scale_m": 2.116414002188211e-06,
+    "maximum_pressure_pa": 509431445.2423346,
+    "pressure_to_deformation_ratio": 1.0,
+    "reduced_modulus_pa": 61939106975.719864,
+    "transverse_radius_ratio": 1.0
+  },
+  "schema_version": "fdm_solution_v0.1",
+  "source_manifest_sha256": "8b8eb6ecfbf7cfd092d9048219da7acde838ba279be8abf8fd7a9634b3f394d0",
+  "source_schema_version": "mentor_fas_solution_v0.1",
+  "strict_converged": true
+}

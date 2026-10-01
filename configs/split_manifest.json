@@ -1,0 +1,80 @@
+{
+  "condition_fields": [
+    "load_n",
+    "entrainment_speed_m_s",
+    "eta0_pa_s",
+    "alpha_pa_inv"
+  ],
+  "design_policy": "all non-extrapolation convex-hull vertices plus center anchor; label-free balanced interior holdout",
+  "schema_version": "condition_split_v0.2",
+  "splits": {
+    "test_extrapolation": [
+      "te_001",
+      "te_002",
+      "te_003",
+      "te_004",
+      "te_005",
+      "te_006",
+      "te_007",
+      "te_008"
+    ],
+    "test_interpolation": [
+      "ti_006",
+      "ti_009",
+      "ti_012",
+      "tr_009",
+      "tr_010",
+      "tr_016",
+      "tr_021",
+      "tr_032"
+    ],
+    "train": [
+      "ti_002",
+      "ti_003",
+      "ti_004",
+      "ti_005",
+      "ti_008",
+      "ti_010",
+      "ti_011",
+      "tr_001",
+      "tr_002",
+      "tr_005",
+      "tr_006",
+      "tr_007",
+      "tr_008",
+      "tr_011",
+      "tr_012",
+      "tr_013",
+      "tr_014",
+      "tr_015",
+      "tr_017",
+      "tr_019",
+      "tr_022",
+      "tr_023",
+      "tr_025",
+      "tr_026",
+      "tr_027",
+      "tr_028",
+      "tr_029",
+      "tr_030",
+      "tr_031",
+      "va_001",
+      "va_002",
+      "va_004",
+      "va_005",
+      "va_006",
+      "va_007",
+      "va_008"
+    ],
+    "validation": [
+      "ti_001",
+      "ti_007",
+      "tr_003",
+      "tr_004",
+      "tr_018",
+      "tr_020",
+      "tr_024",
+      "va_003"
+    ]
+  }
+}
