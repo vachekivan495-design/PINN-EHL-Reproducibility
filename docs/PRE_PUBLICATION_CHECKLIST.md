@@ -7,6 +7,7 @@
 - [x] One held-out case and its checksum included.
 - [x] Frozen condition split and formal training configuration included.
 - [x] Code and data licenses included.
+- [x] Full 60-case data archive prepared and integrity-tested.
 - [ ] Upload the 60-case data archive to Zenodo or an institutional repository.
 - [ ] Insert the permanent dataset DOI/URL in `docs/DATA_AVAILABILITY.md`.
 - [ ] Confirm all manuscript authors who should appear in `CITATION.cff`.

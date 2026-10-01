@@ -18,3 +18,10 @@ python scripts/verify_dataset.py data/full/reference_d2_769
 The archive should preserve the case-directory names listed in
 `data/full_dataset_index.json`.
 
+Prepared archive for deposit:
+
+- filename: `PINN_EHL_D2_769_full_dataset.zip`;
+- size: 300.64 MB;
+- members: 123 files for 60 cases;
+- SHA-256: `68fb843e115b16726f13c600fdbd64a7d93ad2e0474c3b8038510945276fb53e`.
+
