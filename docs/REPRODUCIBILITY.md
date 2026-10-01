@@ -16,8 +16,12 @@ contract. The formal results also used seed 2 and seed 3 for the 1% setting and
 single runs for 0.1% and 100% supervision. Their evaluation JSON files are
 provided under `results/formal_evaluations`.
 
-The full dataset is excluded from Git because it is about 300 MB. Its permanent
-archive URL must be added before the repository is published.
+The full dataset is excluded from Git because it is about 300 MB. It is
+published as the versioned GitHub Release asset
+`PINN_EHL_D2_769_full_dataset.zip` at
+<https://github.com/vachekivan495-design/PINN-EHL-Reproducibility/releases/tag/v1.0.0>.
+Its SHA-256 is
+`68fb843e115b16726f13c600fdbd64a7d93ad2e0474c3b8038510945276fb53e`.
 
 ## Timing interpretation
 
