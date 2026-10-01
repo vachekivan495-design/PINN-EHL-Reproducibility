@@ -20,7 +20,7 @@ field.
 - one held-out interpolation case (`ti_006`) for an end-to-end smoke
   reproduction;
 - machine-readable formal evaluation results for 0.1%, 1%, and 100%
-  supervision;
+  supervision, including the unrounded Supplementary Tables S1--S4 CSV files;
 - a 60-case data index with SHA-256 checksums.
 
 Legacy M27, Speed/Load/Viscosity, 5% pilot, and superseded solver experiments

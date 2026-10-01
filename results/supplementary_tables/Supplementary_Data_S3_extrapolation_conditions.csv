@@ -1,0 +1,9 @@
+case_id,changed_input,side,observed_training_bound,test_value,distance_beyond_bound_percent
+te_001,load_F_N_N,Lower,25.06,20.00,20.2
+te_002,load_F_N_N,Upper,49.54,55.00,11.0
+te_003,entrainment_speed_u_e_m_per_s,Lower,1.022,0.800,21.7
+te_004,entrainment_speed_u_e_m_per_s,Upper,1.984,2.200,10.9
+te_005,ambient_viscosity_eta0_Pa_s,Lower,0.04585,0.04000,12.8
+te_006,ambient_viscosity_eta0_Pa_s,Upper,0.09035,0.10000,10.7
+te_007,pressure_viscosity_alpha_1e-8_Pa_inverse,Lower,1.531,1.200,21.6
+te_008,pressure_viscosity_alpha_1e-8_Pa_inverse,Upper,2.486,2.800,12.7
